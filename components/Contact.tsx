@@ -39,12 +39,12 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  {
-    icon: Github,
-    label: "GitHub",
-    href: "https://github.com/BlueStar2519",
-    color: "#ffffff",
-  },
+//  {
+//    icon: Github,
+//    label: "GitHub",
+//    href: "https://github.com/BlueStar2519",
+//    color: "#ffffff",
+//  },
   {
     icon: Mail,
     label: "Email",

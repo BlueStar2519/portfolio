@@ -345,36 +345,7 @@ export default function Projects() {
         </div>
 
         {/* View More CTA */}
-        <motion.div
-          className="text-center mt-16"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
-        >
-          <motion.a
-            href="https://github.com/BlueStar2519"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-8 py-4 bg-dark-100/50 border border-white/10 rounded-xl text-gray-400 hover:text-white hover:border-primary-500/50 transition-all duration-300 group relative overflow-hidden"
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-          >
-            {/* Hover background effect */}
-            <motion.div
-              className="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-cyan-500/10"
-              initial={{ x: "-100%" }}
-              whileHover={{ x: 0 }}
-              transition={{ duration: 0.3 }}
-            />
-            <Github size={22} className="relative z-10" />
-            <span className="relative z-10 font-medium font-display">View More on GitHub</span>
-            <ExternalLink
-              size={18}
-              className="relative z-10 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
-            />
-          </motion.a>
-        </motion.div>
+
       </div>
     </section>
   );
