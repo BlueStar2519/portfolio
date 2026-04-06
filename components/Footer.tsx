@@ -41,10 +41,10 @@ export default function Footer() {
               className="text-2xl font-bold font-display gradient-text inline-block mb-3"
               whileHover={{ scale: 1.05 }}
             >
-              BT<span className="text-primary-400">.</span>
+              Martin Conrad<span className="text-primary-400">.</span>
             </motion.a>
             <p className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} Benjamin Tay. All rights reserved.
+              &copy; {new Date().getFullYear()} Martin Conrad. All rights reserved.
             </p>
           </motion.div>
 
@@ -80,7 +80,7 @@ export default function Footer() {
             className="flex items-center gap-4"
           >
             <motion.a
-              href="https://github.com/Benjamin-Tay83"
+              href="https://github.com/BlueStar2519"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-500 hover:text-primary-400 transition-colors"
@@ -91,7 +91,7 @@ export default function Footer() {
               <Github size={20} />
             </motion.a>
             <motion.a
-              href="mailto:givemechance110@gmail.com"
+              href="mailto:fulltechdev58@gmail.com"
               className="p-2 text-gray-500 hover:text-primary-400 transition-colors"
               whileHover={{ scale: 1.1, rotate: -5 }}
               whileTap={{ scale: 0.9 }}

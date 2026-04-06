@@ -9,7 +9,7 @@ import { AnimatedLetters } from "./effects/AnimatedText";
 
 const NeonText = dynamic(() => import("./effects/NeonText"), {
   ssr: false,
-  loading: () => <span className="gradient-text">Benjamin Tay</span>,
+  loading: () => <span className="gradient-text">Martin Conrad</span>,
 });
 
 // Dynamically import TypeWriter to avoid hydration issues
@@ -162,9 +162,9 @@ export default function Hero() {
             className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-4"
           >
             {mounted ? (
-              <NeonText text="Benjamin Tay" />
+              <NeonText text="Martin Conrad" />
             ) : (
-              <span className="gradient-text">Benjamin Tay</span>
+              <span className="gradient-text">Martin Conrad</span>
             )}
           </motion.h1>
 

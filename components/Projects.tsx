@@ -353,7 +353,7 @@ export default function Projects() {
           transition={{ delay: 0.5 }}
         >
           <motion.a
-            href="https://github.com/Benjamin-Tay83"
+            href="https://github.com/BlueStar2519"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-dark-100/50 border border-white/10 rounded-xl text-gray-400 hover:text-white hover:border-primary-500/50 transition-all duration-300 group relative overflow-hidden"

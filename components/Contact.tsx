@@ -18,15 +18,15 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "givemechance110@gmail.com",
-    href: "mailto:givemechance110@gmail.com",
+    value: "fulltechdev58@gmail.com",
+    href: "mailto:fulltechdev58@gmail.com",
     color: "from-blue-500 to-cyan-500",
   },
   {
     icon: Phone,
-    label: "Phone",
-    value: "+84 912 547 386",
-    href: "tel:+84912547386",
+    label: "WhatsApp",
+    value: "+1 (331) 246-4172",
+    href: "whatsApp:+13312464172",
     color: "from-green-500 to-emerald-500",
   },
   {
@@ -42,13 +42,13 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/Benjamin-Tay83",
+    href: "https://github.com/BlueStar2519",
     color: "#ffffff",
   },
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:givemechance110@gmail.com",
+    href: "mailto:fulltechdev58@gmail.com",
     color: "#0ea5e9",
   },
 ];

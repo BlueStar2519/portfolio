@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Benjamin Tay | Senior Full Stack Developer",
+  title: "Martin Conrad | Senior Full Stack Developer",
   description:
     "Senior Full Stack Developer specializing in Next.js, React, TypeScript, and Supabase. Building modern, scalable applications with a focus on performance and clean architecture.",
   keywords: [
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     "Node.js",
     "Supabase",
   ],
-  authors: [{ name: "Benjamin Tay" }],
+  authors: [{ name: "Martin Conrad" }],
   openGraph: {
-    title: "Benjamin Tay | Senior Full Stack Developer",
+    title: "Martin Conrad | Senior Full Stack Developer",
     description:
       "Building modern, scalable full-stack applications with Next.js, React, TypeScript, and Supabase.",
     type: "website",

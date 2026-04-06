@@ -41,7 +41,7 @@ const achievements = [
 
 const codeLines = [
   { content: 'const developer = {', class: '' },
-  { content: '  name: "Benjamin Tay",', class: '' },
+  { content: '  name: "Martin Conrad",', class: '' },
   { content: '  role: "Senior Full Stack Developer",', class: '' },
   { content: '  experience: "4+ years",', class: '' },
   { content: '  focus: ["Performance", "Clean Code", "Scalability"],', class: '' },
@@ -139,7 +139,7 @@ function CodeBlock() {
                   )}
                   {line.content.includes('name:') && (
                     <>
-                      {'  '}<span className="text-cyan-400">name</span>{': '}<span className="text-green-400">&quot;Benjamin Tay&quot;</span>,
+                      {'  '}<span className="text-cyan-400">name</span>{': '}<span className="text-green-400">&quot;Martin Conrad&quot;</span>,
                     </>
                   )}
                   {line.content.includes('role:') && (

@@ -59,7 +59,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <span className="gradient-text font-display">BT</span>
+            <span className="gradient-text font-display">Martin Conrad</span>
             <motion.span
               className="text-primary-400"
               animate={{ opacity: [1, 0.5, 1] }}
@@ -101,7 +101,7 @@ export default function Navbar() {
           {/* Social Links & CTA */}
           <div className="hidden md:flex items-center gap-4">
             <motion.a
-              href="https://github.com/Benjamin-Tay83"
+              href="https://github.com/BlueStar2519"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-400 hover:text-primary-400 transition-colors"
@@ -112,7 +112,7 @@ export default function Navbar() {
               <Github size={20} />
             </motion.a>
             <motion.a
-              href="mailto:givemechance110@gmail.com"
+              href="mailto:fulltechdev58@gmail.com"
               className="p-2 text-gray-400 hover:text-primary-400 transition-colors"
               whileHover={{ scale: 1.1, rotate: -5 }}
               whileTap={{ scale: 0.9 }}
@@ -207,7 +207,7 @@ export default function Navbar() {
                   className="flex items-center gap-4 px-4 pt-4 mt-2 border-t border-white/10"
                 >
                   <a
-                    href="https://github.com/Benjamin-Tay83"
+                    href="https://github.com/BlueStar2519"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-gray-400 hover:text-primary-400 transition-colors"
@@ -215,7 +215,7 @@ export default function Navbar() {
                     <Github size={20} />
                   </a>
                   <a
-                    href="mailto:givemechance110@gmail.com"
+                    href="mailto:fulltechdev58@gmail.com"
                     className="p-2 text-gray-400 hover:text-primary-400 transition-colors"
                   >
                     <Mail size={20} />

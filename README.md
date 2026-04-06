@@ -1,4 +1,4 @@
-# Benjamin Tay - Portfolio Website
+# Martin Conrad - Portfolio Website
 
 A modern, responsive portfolio website built with Next.js 14, React, TypeScript, and Tailwind CSS.
 
