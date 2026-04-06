@@ -100,7 +100,7 @@ export default function Navbar() {
 
           {/* Social Links & CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <motion.a
+            {/* <motion.a
               href="https://github.com/BlueStar2519"
               target="_blank"
               rel="noopener noreferrer"
@@ -110,7 +110,7 @@ export default function Navbar() {
               aria-label="GitHub"
             >
               <Github size={20} />
-            </motion.a>
+            </motion.a> */}
             <motion.a
               href="mailto:fulltechdev58@gmail.com"
               className="p-2 text-gray-400 hover:text-primary-400 transition-colors"
@@ -206,14 +206,14 @@ export default function Navbar() {
                   animate={{ opacity: 1 }}
                   className="flex items-center gap-4 px-4 pt-4 mt-2 border-t border-white/10"
                 >
-                  <a
+                  {/* <a
                     href="https://github.com/BlueStar2519"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-2 text-gray-400 hover:text-primary-400 transition-colors"
                   >
                     <Github size={20} />
-                  </a>
+                  </a> */}
                   <a
                     href="mailto:fulltechdev58@gmail.com"
                     className="p-2 text-gray-400 hover:text-primary-400 transition-colors"

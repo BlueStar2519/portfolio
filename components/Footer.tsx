@@ -79,7 +79,7 @@ export default function Footer() {
             transition={{ delay: 0.2 }}
             className="flex items-center gap-4"
           >
-            <motion.a
+            {/* <motion.a
               href="https://github.com/BlueStar2519"
               target="_blank"
               rel="noopener noreferrer"
@@ -89,7 +89,7 @@ export default function Footer() {
               aria-label="GitHub"
             >
               <Github size={20} />
-            </motion.a>
+            </motion.a> */}
             <motion.a
               href="mailto:fulltechdev58@gmail.com"
               className="p-2 text-gray-500 hover:text-primary-400 transition-colors"

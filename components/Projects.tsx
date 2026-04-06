@@ -344,8 +344,6 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* View More CTA */}
-
       </div>
     </section>
   );
